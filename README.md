@@ -1,12 +1,12 @@
 # zomato
-Zomato_sales_trend
+## Zomato_sales_trend
 
 ![schema](https://github.com/Firdousrahmani/zomato/blob/main/schema.png)
 
-# I recently worked on a Zomato Sales Analysis project using SQL and Excel, where I explored key customer spending behaviors and product trends.
-# This dataset provided valuable insights into customer purchasing patterns and menu popularity.
+I recently worked on a Zomato Sales Analysis project using SQL and Excel, where I explored key customer spending behaviors and product trends.
+This dataset provided valuable insights into customer purchasing patterns and menu popularity.
 
-**Key Insights:**
+## **Key Insights:**
 
 Total Customer Spend – Calculated how much each user spent in total on Zomato.
 Customer Visit Frequency – Analyzed how many unique days each customer visited.
