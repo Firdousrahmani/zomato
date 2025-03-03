@@ -9,9 +9,13 @@ This dataset provided valuable insights into customer purchasing patterns and me
 ## **Key Insights:**
 
 Total Customer Spend – Calculated how much each user spent in total on Zomato.
+
 Customer Visit Frequency – Analyzed how many unique days each customer visited.
+
 First Purchase Analysis – Identified the first product each customer purchased.
+
 Most Purchased Item – Found the highest-selling product and how often it was bought.
+
 Customer Preferences – Determined each user's most frequently purchased item.
 
 1. what is the total amount each customer spent on zomato ?
