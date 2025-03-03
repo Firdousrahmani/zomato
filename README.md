@@ -3,8 +3,8 @@ Zomato_sales_trend
 
 ![schema](https://github.com/Firdousrahmani/zomato/blob/main/schema.png)
 
-## I recently worked on a Zomato Sales Analysis project using SQL and Excel, where I explored key customer spending behaviors and product trends.
-## This dataset provided valuable insights into customer purchasing patterns and menu popularity.
+# I recently worked on a Zomato Sales Analysis project using SQL and Excel, where I explored key customer spending behaviors and product trends.
+# This dataset provided valuable insights into customer purchasing patterns and menu popularity.
 
 **Key Insights:**
 
@@ -14,7 +14,7 @@ First Purchase Analysis – Identified the first product each customer purchased
 Most Purchased Item – Found the highest-selling product and how often it was bought.
 Customer Preferences – Determined each user's most frequently purchased item.
 
- what is the total amount each customer spent on zomato ?
+1. what is the total amount each customer spent on zomato ?
 
     select sales.userid as users_id  , sum(product.price) as total_spent
     from sales
@@ -23,19 +23,19 @@ Customer Preferences – Determined each user's most frequently purchased item.
     group by users_id
     order by users_id asc
 
-how many days has each customer visited zomato?
+2. how many days has each customer visited zomato?
 
      select userid, count(distinct created_date)
      from sales
     group by userid
 
- what was the first product purcahsed by each customer?
+3. what was the first product purcahsed by each customer?
 
     select * from
     (select * , rank() over(partition by userid order by created_date ) 
     rank from sales) a where rank = 1
 
- what is the most purchased item in the menu and how
+4. what is the most purchased item in the menu and how
  many times was it purchased by all customers.
 
 
@@ -50,7 +50,7 @@ how many days has each customer visited zomato?
 
     GROUP BY userid;
 
-which item was the most popular for each customer.
+5. which item was the most popular for each customer.
 
     select * from
 
